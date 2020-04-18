@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +9V_UNREG
+D Power symbol creates a global label with name "+9V_UNREG"
+K power-flag
+$ENDCMP
+#
+$CMP 9V_AC1
+D Power symbol creates a global label with name "9V_AC1"
+K power-flag
+$ENDCMP
+#
+$CMP 9V_AC2
+D Power symbol creates a global label with name "9V_AC2"
+K power-flag
+$ENDCMP
+#
+$CMP Conn_02x12_Edge
+D Edge connector, double side, 02x12
+K connector edge
+$ENDCMP
+#
+$CMP Conn_02x22_Edge_Female
+D Generic connector, double row, 02x22, edge, female
+K connector edge
+$ENDCMP
+#
+$CMP Conn_02x6_Edge
+D Edge connector, double side, connected sides, 02x6
+K connector edge
+$ENDCMP
+#
+$CMP RF_Modulator
+D C64C RF Modulator
+K c64 c64c rf modulator
+$ENDCMP
+#
+#End Doc Library

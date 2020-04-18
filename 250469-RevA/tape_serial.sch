@@ -1,0 +1,668 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 11
+Title "Commodore C64C - Assy 250469-01 Rev. A"
+Date "2020-04-15"
+Rev "1"
+Comp "https://github.com/orgs/KicadRetroArchive"
+Comment1 "KiCad schematic licensed under CERN-OHL-S"
+Comment2 "WARNING: These schematics might contain errors!"
+Comment3 "Author: Andrea Cisternino <a.cisternino@gmail.com>"
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5E31C6DD
+P 4950 2200
+AR Path="/5E1CEE0C/5E31C6DD" Ref="C?"  Part="1" 
+AR Path="/5E2FB209/5E31C6DD" Ref="C94"  Part="1" 
+F 0 "C94" H 5065 2246 50  0000 L CNN
+F 1 "150p" H 5065 2155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4988 2050 50  0001 C CNN
+F 3 "~" H 4950 2200 50  0001 C CNN
+	1    4950 2200
+	1    0    0    -1  
+$EndComp
+Text Notes 5430 3070 2    40   ~ 0
+CN4
+$Comp
+L Connector:DIN-6 J?
+U 1 1 5E31C703
+P 5500 2650
+AR Path="/5E1CEE0C/5E31C703" Ref="J?"  Part="1" 
+AR Path="/5E2FB209/5E31C703" Ref="J4"  Part="1" 
+F 0 "J4" H 5350 2900 50  0000 C CNN
+F 1 "DIN-6" H 5750 2400 50  0000 C CNN
+F 2 "krl_Connector_DIN:CUI-Devices_SDS-60J_DIN-6_Circular" H 5500 2650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 5500 2650 50  0001 C CNN
+	1    5500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2550 4950 2550
+Wire Wire Line
+	4950 2550 4950 2350
+Wire Wire Line
+	4950 2050 4950 2000
+Wire Wire Line
+	4950 2000 5500 2000
+Connection ~ 4950 2550
+Wire Wire Line
+	5500 2000 5500 2250
+Connection ~ 5500 2250
+Wire Wire Line
+	5500 2250 5500 2350
+Wire Wire Line
+	5200 2750 5150 2750
+Wire Wire Line
+	5150 2750 5150 2950
+Text Notes 2450 1200 0    200  ~ 0
+SERIAL BUS
+$Comp
+L Diode:1N914 D?
+U 1 1 5E31C74A
+P 4100 3150
+AR Path="/5E1CEE0C/5E31C74A" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E31C74A" Ref="D14"  Part="1" 
+F 0 "D14" V 4054 3230 50  0000 L CNN
+F 1 "1N914" V 4145 3230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 4100 2975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4100 3150 50  0001 C CNN
+	1    4100 3150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 5E31C750
+P 4100 2800
+AR Path="/5E1CEE0C/5E31C750" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E31C750" Ref="D9"  Part="1" 
+F 0 "D9" V 4054 2880 50  0000 L CNN
+F 1 "1N914" V 4145 2880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 4100 2625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4100 2800 50  0001 C CNN
+	1    4100 2800
+	0    -1   1    0   
+$EndComp
+Connection ~ 4100 2950
+$Comp
+L power:+5V #PWR?
+U 1 1 5E31C759
+P 4100 2650
+AR Path="/5E1CEE0C/5E31C759" Ref="#PWR?"  Part="1" 
+AR Path="/5E2FB209/5E31C759" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4100 2500 50  0001 C CNN
+F 1 "+5V" H 4115 2823 50  0000 C CNN
+F 2 "" H 4100 2650 50  0001 C CNN
+F 3 "" H 4100 2650 50  0001 C CNN
+	1    4100 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E31C75F
+P 4100 3400
+AR Path="/5E1CEE0C/5E31C75F" Ref="#PWR?"  Part="1" 
+AR Path="/5E2FB209/5E31C75F" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4100 3150 50  0001 C CNN
+F 1 "GND" H 4105 3227 50  0000 C CNN
+F 2 "" H 4100 3400 50  0001 C CNN
+F 3 "" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E31C765
+P 3550 3150
+AR Path="/5E1CEE0C/5E31C765" Ref="C?"  Part="1" 
+AR Path="/5E2FB209/5E31C765" Ref="C4"  Part="1" 
+F 0 "C4" H 3600 3250 50  0000 L CNN
+F 1 "470p" H 3600 3050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3588 3000 50  0001 C CNN
+F 3 "~" H 3550 3150 50  0001 C CNN
+	1    3550 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2950 3550 2950
+Wire Wire Line
+	5800 2750 6000 2750
+Wire Wire Line
+	6000 2750 6000 2950
+Wire Wire Line
+	6050 2250 6050 1500
+Wire Wire Line
+	5500 2250 6050 2250
+Wire Wire Line
+	6900 2550 6900 1500
+Wire Wire Line
+	5800 2550 6900 2550
+$Comp
+L Diode:1N914 D?
+U 1 1 5E343C29
+P 5900 1500
+AR Path="/5E1CEE0C/5E343C29" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E343C29" Ref="D13"  Part="1" 
+F 0 "D13" H 5850 1650 50  0000 L CNN
+F 1 "1N914" H 5750 1350 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 5900 1325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5900 1500 50  0001 C CNN
+	1    5900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 5E346844
+P 6200 1500
+AR Path="/5E1CEE0C/5E346844" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E346844" Ref="D17"  Part="1" 
+F 0 "D17" H 6150 1650 50  0000 L CNN
+F 1 "1N914" H 6100 1350 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 6200 1325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 6200 1500 50  0001 C CNN
+	1    6200 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 1500
+$Comp
+L Diode:1N914 D?
+U 1 1 5E348190
+P 6750 1500
+AR Path="/5E1CEE0C/5E348190" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E348190" Ref="D12"  Part="1" 
+F 0 "D12" H 6700 1650 50  0000 L CNN
+F 1 "1N914" H 6600 1350 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 6750 1325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 6750 1500 50  0001 C CNN
+	1    6750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 5E34969A
+P 7050 1500
+AR Path="/5E1CEE0C/5E34969A" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E34969A" Ref="D16"  Part="1" 
+F 0 "D16" H 7000 1650 50  0000 L CNN
+F 1 "1N914" H 6950 1350 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 7050 1325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 7050 1500 50  0001 C CNN
+	1    7050 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 1500
+$Comp
+L Diode:1N914 D?
+U 1 1 5E349D45
+P 7600 1500
+AR Path="/5E1CEE0C/5E349D45" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E349D45" Ref="D11"  Part="1" 
+F 0 "D11" H 7550 1650 50  0000 L CNN
+F 1 "1N914" H 7450 1350 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 7600 1325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 7600 1500 50  0001 C CNN
+	1    7600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1500 6600 1050
+Wire Wire Line
+	6600 1050 5750 1050
+Wire Wire Line
+	5750 1050 5750 1500
+Wire Wire Line
+	7450 1500 7450 1050
+Wire Wire Line
+	7450 1050 6600 1050
+Connection ~ 6600 1050
+Wire Wire Line
+	6400 1500 6400 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5E34FC39
+P 7250 1900
+AR Path="/5E1CEE0C/5E34FC39" Ref="#PWR?"  Part="1" 
+AR Path="/5E2FB209/5E34FC39" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 7250 1650 50  0001 C CNN
+F 1 "GND" H 7255 1727 50  0000 C CNN
+F 2 "" H 7250 1900 50  0001 C CNN
+F 3 "" H 7250 1900 50  0001 C CNN
+	1    7250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1800 7250 1800
+Wire Wire Line
+	7250 1500 7250 1800
+Connection ~ 7250 1800
+Wire Wire Line
+	7250 1800 8100 1800
+Wire Wire Line
+	7250 1800 7250 1900
+$Comp
+L power:+5V #PWR?
+U 1 1 5E352A55
+P 6600 950
+AR Path="/5E1CEE0C/5E352A55" Ref="#PWR?"  Part="1" 
+AR Path="/5E2FB209/5E352A55" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 6600 800 50  0001 C CNN
+F 1 "+5V" H 6615 1123 50  0000 C CNN
+F 2 "" H 6600 950 50  0001 C CNN
+F 3 "" H 6600 950 50  0001 C CNN
+	1    6600 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 950  6600 1050
+Text GLabel 6200 2250 2    50   Input ~ 0
+ATN
+Wire Wire Line
+	6050 2250 6200 2250
+Connection ~ 6050 2250
+Text GLabel 7050 2550 2    50   BiDi ~ 0
+CLK
+Wire Wire Line
+	7050 2550 6900 2550
+Connection ~ 6900 2550
+Text GLabel 7900 2950 2    50   BiDi ~ 0
+DATA
+Wire Wire Line
+	4100 2950 5150 2950
+Text GLabel 3200 2950 0    50   Output ~ 0
+~SRQ
+Wire Wire Line
+	3200 2950 3550 2950
+Connection ~ 3550 2950
+Wire Wire Line
+	4100 3300 4100 3350
+Wire Wire Line
+	4100 3000 4100 2950
+Wire Wire Line
+	3550 3000 3550 2950
+Wire Wire Line
+	3550 3300 3550 3350
+Wire Wire Line
+	3550 3350 4100 3350
+Connection ~ 4100 3350
+Wire Wire Line
+	4100 3350 4100 3400
+$Comp
+L power:GND #PWR0105
+U 1 1 5E370700
+P 4600 2600
+F 0 "#PWR0105" H 4600 2350 50  0001 C CNN
+F 1 "GND" H 4605 2427 50  0000 C CNN
+F 2 "" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2550 4600 2600
+Wire Wire Line
+	4600 2550 4950 2550
+Wire Wire Line
+	5500 3350 6350 3350
+Wire Wire Line
+	5500 2950 5500 3350
+Text GLabel 6350 3350 2    50   Input ~ 0
+~EXTRST
+Text Notes 3200 6000 0    40   ~ 0
+CN3
+Text Notes 1150 4400 0    200  ~ 0
+CASSETTE
+$Comp
+L Device:C C?
+U 1 1 5E3A02D9
+P 4150 4700
+AR Path="/5E1CEE0C/5E3A02D9" Ref="C?"  Part="1" 
+AR Path="/5E2FB209/5E3A02D9" Ref="C1"  Part="1" 
+F 0 "C1" H 4265 4746 50  0000 L CNN
+F 1 "0.1u" H 4265 4655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4188 4550 50  0001 C CNN
+F 3 "~" H 4150 4700 50  0001 C CNN
+	1    4150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3510 5200 3750 5200
+Wire Wire Line
+	3510 5750 3650 5750
+Wire Wire Line
+	3650 5750 3650 6100
+Wire Wire Line
+	3510 5650 3750 5650
+Wire Wire Line
+	3510 5300 3650 5300
+Wire Wire Line
+	3750 5650 3750 5900
+$Comp
+L Device:C C2
+U 1 1 5E3A02EB
+P 4100 6350
+F 0 "C2" H 4215 6396 50  0000 L CNN
+F 1 "470p" H 4215 6305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4138 6200 50  0001 C CNN
+F 3 "~" H 4100 6350 50  0001 C CNN
+	1    4100 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E3A02F1
+P 4100 6600
+F 0 "#PWR0106" H 4100 6350 50  0001 C CNN
+F 1 "GND" H 4105 6427 50  0000 C CNN
+F 2 "" H 4100 6600 50  0001 C CNN
+F 3 "" H 4100 6600 50  0001 C CNN
+	1    4100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L krl_Transistor_BJT:2SD313E Q1
+U 1 1 5E3A02F7
+P 5750 5200
+F 0 "Q1" H 5942 5246 50  0000 L CNN
+F 1 "2SD313" H 5942 5155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 5950 5125 50  0001 L CIN
+F 3 "" H 5750 5200 50  0001 L CNN
+	1    5750 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3510 5550 3850 5550
+Wire Wire Line
+	3850 5550 3850 5700
+Wire Wire Line
+	5650 5450 5650 5400
+Wire Wire Line
+	5650 5000 5650 4650
+Wire Wire Line
+	5650 4650 6200 4650
+Wire Wire Line
+	5950 5200 6200 5200
+$Comp
+L Device:R R1
+U 1 1 5E3A0305
+P 6200 4900
+F 0 "R1" H 6270 4946 50  0000 L CNN
+F 1 "470" H 6270 4855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 6130 4900 50  0001 C CNN
+F 3 "~" H 6200 4900 50  0001 C CNN
+	1    6200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4750 6200 4650
+Connection ~ 6200 4650
+Wire Wire Line
+	6200 4650 6800 4650
+Wire Wire Line
+	6200 5050 6200 5200
+Connection ~ 6200 5200
+Wire Wire Line
+	6200 5800 6200 5650
+Wire Wire Line
+	6200 5350 6200 5200
+$Comp
+L Transistor_BJT:2SC1815 Q2
+U 1 1 5E3A0312
+P 6950 5500
+F 0 "Q2" H 7141 5546 50  0000 L CNN
+F 1 "2SC1815" H 7141 5455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7150 5425 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 6950 5500 50  0001 L CNN
+	1    6950 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3A0318
+P 6850 5900
+AR Path="/5E1CEE0C/5E3A0318" Ref="#PWR?"  Part="1" 
+AR Path="/5E2FB209/5E3A0318" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 6850 5650 50  0001 C CNN
+F 1 "GND" H 6855 5727 50  0000 C CNN
+F 2 "" H 6850 5900 50  0001 C CNN
+F 3 "" H 6850 5900 50  0001 C CNN
+	1    6850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5300 6850 5200
+Wire Wire Line
+	6850 5200 6200 5200
+Wire Wire Line
+	6850 5700 6850 5800
+Wire Wire Line
+	6200 5800 6850 5800
+Connection ~ 6850 5800
+Wire Wire Line
+	6850 5800 6850 5900
+$Comp
+L Device:C C?
+U 1 1 5E3A0324
+P 4150 5200
+AR Path="/5E1CEE0C/5E3A0324" Ref="C?"  Part="1" 
+AR Path="/5E2FB209/5E3A0324" Ref="C84"  Part="1" 
+F 0 "C84" H 4265 5246 50  0000 L CNN
+F 1 "0.1u" H 4265 5155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4188 5050 50  0001 C CNN
+F 3 "~" H 4150 5200 50  0001 C CNN
+	1    4150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E3A033B
+P 4600 6350
+F 0 "C3" H 4715 6396 50  0000 L CNN
+F 1 "470p" H 4715 6305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4638 6200 50  0001 C CNN
+F 3 "~" H 4600 6350 50  0001 C CNN
+	1    4600 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 6500 4100 6550
+Wire Wire Line
+	4600 6500 4600 6550
+Wire Wire Line
+	4600 6550 4100 6550
+Connection ~ 4100 6550
+Wire Wire Line
+	4100 6550 4100 6600
+Wire Wire Line
+	3750 5900 4600 5900
+Wire Wire Line
+	3650 6100 4100 6100
+Wire Wire Line
+	4100 6200 4100 6100
+Connection ~ 4100 6100
+Wire Wire Line
+	4100 6100 5100 6100
+Wire Wire Line
+	4600 6200 4600 5900
+Connection ~ 4600 5900
+Wire Wire Line
+	4600 5900 5300 5900
+$Comp
+L Device:R R?
+U 1 1 5E3A034E
+P 7450 5500
+AR Path="/5E1CEE0C/5E3A034E" Ref="R?"  Part="1" 
+AR Path="/5E2FB209/5E3A034E" Ref="R3"  Part="1" 
+F 0 "R3" V 7243 5500 50  0000 C CNN
+F 1 "1k" V 7334 5500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 7380 5500 50  0001 C CNN
+F 3 "~" H 7450 5500 50  0001 C CNN
+	1    7450 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 5500 7300 5500
+Wire Wire Line
+	7600 5500 7900 5500
+Text Label 4600 5450 0    50   ~ 0
+MOTOR
+Text Notes 4450 5700 0    50   Italic 0
+Also CASS_RD
+Wire Wire Line
+	5100 6100 5100 6800
+Wire Wire Line
+	5100 6800 5650 6800
+Text Notes 2950 6100 0    40   ~ 0
+(6 PIN MALE EDGE)
+Wire Wire Line
+	5300 5900 5300 6450
+Wire Wire Line
+	5300 6450 5650 6450
+Wire Notes Line
+	750  3800 10750 3800
+Text Notes 5430 3170 2    40   ~ 0
+(6 PIN FEMALE DIN)
+Wire Wire Line
+	3510 5450 4150 5450
+Wire Wire Line
+	3650 4450 3650 5300
+$Comp
+L power:+5V #PWR?
+U 1 1 5E3B6680
+P 4700 4400
+AR Path="/5E1CEE0C/5E3B6680" Ref="#PWR?"  Part="1" 
+AR Path="/5E2FB209/5E3B6680" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 4700 4250 50  0001 C CNN
+F 1 "+5V" H 4715 4573 50  0000 C CNN
+F 2 "" H 4700 4400 50  0001 C CNN
+F 3 "" H 4700 4400 50  0001 C CNN
+	1    4700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3B72BC
+P 4700 5000
+AR Path="/5E1CEE0C/5E3B72BC" Ref="#PWR?"  Part="1" 
+AR Path="/5E2FB209/5E3B72BC" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4700 4750 50  0001 C CNN
+F 1 "GND" H 4705 4827 50  0000 C CNN
+F 2 "" H 4700 5000 50  0001 C CNN
+F 3 "" H 4700 5000 50  0001 C CNN
+	1    4700 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5200 3750 4950
+Wire Wire Line
+	3750 4950 4150 4950
+Wire Wire Line
+	4700 4950 4700 5000
+Text GLabel 5650 6100 2    50   Output ~ 0
+~SRQ
+Wire Wire Line
+	4150 5050 4150 4950
+Connection ~ 4150 4950
+Wire Wire Line
+	4150 4950 4700 4950
+Wire Wire Line
+	4150 5350 4150 5450
+Connection ~ 4150 5450
+Wire Wire Line
+	4150 5450 5650 5450
+Wire Wire Line
+	4150 4850 4150 4950
+Wire Wire Line
+	3650 4450 4150 4450
+Wire Wire Line
+	4150 4550 4150 4450
+Wire Wire Line
+	4700 4400 4700 4450
+Wire Wire Line
+	4700 4450 4150 4450
+Connection ~ 4150 4450
+Text GLabel 7900 5500 2    50   Input ~ 0
+C_MOTOR
+Text GLabel 5650 6450 2    50   Input ~ 0
+C_WRITE
+Text GLabel 5650 6800 2    50   Output ~ 0
+C_SENSE
+Wire Wire Line
+	5650 6100 5500 6100
+Wire Wire Line
+	5500 6100 5500 5700
+Wire Wire Line
+	5500 5700 3850 5700
+Wire Wire Line
+	6400 1500 6350 1500
+Wire Wire Line
+	7250 1500 7200 1500
+Connection ~ 7750 1500
+Wire Wire Line
+	7750 2950 7900 2950
+Wire Wire Line
+	6000 2950 7750 2950
+Connection ~ 7750 2950
+Wire Wire Line
+	7750 2950 7750 1500
+Wire Wire Line
+	8050 1500 8100 1500
+Wire Wire Line
+	8100 1500 8100 1800
+$Comp
+L Diode:1N914 D?
+U 1 1 5E34B768
+P 7900 1500
+AR Path="/5E1CEE0C/5E34B768" Ref="D?"  Part="1" 
+AR Path="/5E2FB209/5E34B768" Ref="D15"  Part="1" 
+F 0 "D15" H 7850 1650 50  0000 L CNN
+F 1 "1N914" H 7800 1350 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" H 7900 1325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 7900 1500 50  0001 C CNN
+	1    7900 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 2750 2750 0    50   ~ 0
+This is also labeled\nas CASS_RD
+Text Notes 1600 5500 0    50   ~ 0
+The edge connector is dual-sided\nwith corresponding pads connected
+$Comp
+L 250469-01:Conn_02x6_Edge J3
+U 1 1 5E497C69
+P 3260 5500
+F 0 "J3" H 3260 6050 50  0000 C CNN
+F 1 "Conn_02x6_Edge" H 3260 5950 50  0000 C CNN
+F 2 "250469-01:Connector_Edge_2x6_P3.96mm" H 3210 5300 50  0001 C CNN
+F 3 "" H 3210 5300 50  0001 C CNN
+	1    3260 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 250469-01:+9V_UNREG #PWR01
+U 1 1 5E6E6E13
+P 6800 4550
+F 0 "#PWR01" H 6800 4400 50  0001 C CNN
+F 1 "+9V_UNREG" H 6815 4723 50  0000 C CNN
+F 2 "" H 6800 4550 50  0001 C CNN
+F 3 "" H 6800 4550 50  0001 C CNN
+	1    6800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4550 6800 4650
+$Comp
+L krl_Diode:RD6.8EB D1
+U 1 1 5E981005
+P 6200 5500
+F 0 "D1" V 6150 5300 50  0000 L CNN
+F 1 "RD6.8EB" V 6250 5100 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6200 5275 50  0001 C CIN
+F 3 "" H 6200 5500 50  0001 C CNN
+F 4 "BZX79-C6V8" H 6200 5700 50  0001 C CNN "Equivalent"
+	1    6200 5500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

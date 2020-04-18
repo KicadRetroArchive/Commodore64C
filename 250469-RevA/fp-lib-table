@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name krl_Connector_DIN)(type KiCad)(uri ${KICAD_RETRO_LIBRARY}/krl-footprints/krl_Connector_DIN.pretty)(options "")(descr ""))
+  (lib (name krl_Filter)(type KiCad)(uri ${KICAD_RETRO_LIBRARY}/krl-footprints/krl_Filter.pretty)(options "")(descr ""))
+  (lib (name krl_Package_SPDIP)(type KiCad)(uri ${KICAD_RETRO_LIBRARY}/krl-footprints/krl_Package_SPDIP.pretty)(options "")(descr ""))
+  (lib (name 250469-01)(type KiCad)(uri ${KIPRJMOD}/../libs/250469-01.pretty)(options "")(descr ""))
+)
