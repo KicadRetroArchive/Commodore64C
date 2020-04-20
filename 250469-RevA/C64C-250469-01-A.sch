@@ -58,7 +58,7 @@ $EndSheet
 $Sheet
 S 6650 4200 1150 800 
 U 5E427C5E
-F0 "Video" 50
+F0 "Video - ClockGen" 50
 F1 "video.sch" 50
 $EndSheet
 $Sheet

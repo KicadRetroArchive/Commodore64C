@@ -407,8 +407,8 @@ P 9450 5800
 AR Path="/5E1CEE0C/5E6DF147" Ref="L?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF147" Ref="L3"  Part="1" 
 F 0 "L3" V 9550 5800 50  0000 C CNN
-F 1 "Choke Coil" V 9350 5800 50  0000 C CNN
-F 2 "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC" H 9450 5800 50  0001 C CNN
+F 1 "10uH" V 9350 5800 50  0000 C CNN
+F 2 "250469-01:L_Radial_L7.5mm_W3mm_P5.00mm_Kemet_SBT-02" H 9450 5800 50  0001 C CNN
 F 3 "~" H 9450 5800 50  0001 C CNN
 	1    9450 5800
 	0    1    -1   0   
