@@ -14,17 +14,6 @@ Comment3 "Author: Andrea Cisternino <a.cisternino@gmail.com>"
 Comment4 ""
 $EndDescr
 $Comp
-L krl_MOS-Technology:8565 U7
-U 1 1 5E42887D
-P 2950 2750
-F 0 "U7" H 2600 3900 50  0000 C CNN
-F 1 "8565" H 3275 3900 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 2250 1550 50  0001 C CIN
-F 3 "" H 1750 3350 50  0001 C CNN
-	1    2950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0178
 U 1 1 5E42EFFC
 P 2950 1350
@@ -813,9 +802,9 @@ Connection ~ 5600 1150
 Wire Wire Line
 	5600 1150 5600 1250
 Wire Wire Line
-	6600 1150 7250 1150
+	6600 1150 7050 1150
 Wire Wire Line
-	7250 1150 7250 1600
+	7050 1150 7050 1600
 $Comp
 L power:GND #PWR0191
 U 1 1 5E5C6A7D
@@ -829,15 +818,6 @@ F 3 "" H 5600 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 1600 5600 1550
-Text Notes 8150 1250 0    40   ~ 0
-The RF Out goes to the antenna\nconnector integrated in the modulator
-Wire Wire Line
-	8100 1900 8100 1350
-Wire Wire Line
-	8100 1350 8250 1350
-Wire Wire Line
-	7950 1900 8100 1900
-NoConn ~ 8250 1350
 Text GLabel 10200 2200 2    50   Input ~ 0
 AUDIO_OUT
 Text GLabel 10250 2450 2    50   Output ~ 0
@@ -892,15 +872,15 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E7E21E3
-P 7250 1150
-F 0 "#FLG0101" H 7250 1225 50  0001 C CNN
-F 1 "PWR_FLAG" H 7250 1323 50  0000 C CNN
-F 2 "" H 7250 1150 50  0001 C CNN
-F 3 "~" H 7250 1150 50  0001 C CNN
-	1    7250 1150
+P 7050 1075
+F 0 "#FLG0101" H 7050 1150 50  0001 C CNN
+F 1 "PWR_FLAG" H 7050 1248 50  0000 C CNN
+F 2 "" H 7050 1075 50  0001 C CNN
+F 3 "~" H 7050 1075 50  0001 C CNN
+	1    7050 1075
 	1    0    0    -1  
 $EndComp
-Connection ~ 7250 1150
+Connection ~ 7050 1150
 Text Label 6000 2300 0    50   ~ 0
 AUDIO_OUT
 Wire Wire Line
@@ -948,6 +928,19 @@ Wire Wire Line
 	8350 5050 8650 5050
 Wire Wire Line
 	8350 5150 8500 5150
+$Comp
+L krl_MOS-Technology:8565R2 U7
+U 1 1 5EA66DAD
+P 2950 2750
+F 0 "U7" H 2600 3900 50  0000 C CNN
+F 1 "8565R2" H 3350 3900 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 2200 1500 50  0001 C CIN
+F 3 "" H 1800 3500 50  0001 C CNN
+	1    2950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1150 7050 1075
 Wire Bus Line
 	1950 2200 1950 2350
 Wire Bus Line
