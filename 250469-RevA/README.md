@@ -2,7 +2,7 @@
 
 Original board:
 
-![250469 Rev. A board](docs/C64_PCB_Assy250469_Schematic252311RevA.jpg | width=800)
+<img src="docs/C64_PCB_Assy250469_Schematic252311RevA.jpg" alt="250469 Rev. A board" width="800"/>
 
 (_From the [C64-Wiki](https://www.c64-wiki.com/wiki/Motherboard)_)
 
