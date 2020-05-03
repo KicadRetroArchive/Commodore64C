@@ -63,13 +63,13 @@ This project has been heavily inspired by these awesome projects:
 ## Contributing
 
 We gladly accept contributions via GitHub pull requests. Please see
-[CONTRIBUTING.md] for more details.
+[CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## License
 
 Original schematic drawings and service manual are &copy; Commodore Electronics Ltd.
 
-All the KiCad design files are copyright &copy; 2020 Andrea Cisternino.
+All KiCad design files are copyright &copy; 2020 Andrea Cisternino.
 
 This project is Open Hardware licensed under the
 [CERN-OHL-S v2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
