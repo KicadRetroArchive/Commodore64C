@@ -7,7 +7,7 @@ Sheet 9 11
 Title "Commodore C64C - Assy 250469-01 Rev. A"
 Date "2020-04-15"
 Rev "1"
-Comp "https://github.com/orgs/KicadRetroArchive"
+Comp "https://github.com/KicadRetroArchive"
 Comment1 "KiCad schematic licensed under CERN-OHL-S"
 Comment2 "WARNING: These schematics might contain errors!"
 Comment3 "Author: Andrea Cisternino <a.cisternino@gmail.com>"
@@ -271,7 +271,7 @@ U 1 1 5E49D621
 P 6600 5300
 F 0 "CT1" H 6716 5346 50  0000 L CNN
 F 1 "7.7-40p" H 6716 5255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Trimmer_Voltronics_JZ" H 6600 5300 50  0001 C CNN
+F 2 "krl_Capacitor_THT:C_Trimmer_JML_JML06_P5mm" H 6600 5300 50  0001 C CNN
 F 3 "~" H 6600 5300 50  0001 C CNN
 	1    6600 5300
 	-1   0    0    -1  
@@ -299,7 +299,7 @@ U 1 1 5E4A291C
 P 8850 4850
 F 0 "JP3" H 8850 5114 50  0000 C CNN
 F 1 "Jumper" H 8850 5023 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8850 4850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 4850 50  0001 C CNN
 F 3 "~" H 8850 4850 50  0001 C CNN
 	1    8850 4850
 	-1   0    0    -1  
@@ -450,21 +450,8 @@ Text Label 2050 2350 0    50   ~ 0
 VA6
 Text Label 2050 2450 0    50   ~ 0
 VA7
-$Comp
-L Jumper:SolderJumper_2_Bridged JP4
-U 1 1 5E72030B
-P 2050 4150
-F 0 "JP4" H 2050 4050 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 2050 4264 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2050 4150 50  0001 C CNN
-F 3 "~" H 2050 4150 50  0001 C CNN
-	1    2050 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2200 4150 2350 4150
-Wire Wire Line
-	1900 4150 1750 4150
+	1750 4150 2350 4150
 Wire Wire Line
 	3450 3550 3650 3550
 Wire Wire Line

@@ -7,7 +7,7 @@ Sheet 6 11
 Title "Commodore C64C - Assy 250469-01 Rev. A"
 Date "2020-04-15"
 Rev "1"
-Comp "https://github.com/orgs/KicadRetroArchive"
+Comp "https://github.com/KicadRetroArchive"
 Comment1 "KiCad schematic licensed under CERN-OHL-S"
 Comment2 "WARNING: These schematics might contain errors!"
 Comment3 "Author: Andrea Cisternino <a.cisternino@gmail.com>"
