@@ -760,7 +760,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 5200 9100 5600
 Text Notes 1250 1250 0    200  ~ 0
-Power
+POWER
 Text Notes 8400 4400 0    100  ~ 0
 LED Connector
 $Comp
