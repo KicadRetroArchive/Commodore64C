@@ -12,13 +12,11 @@ Original board:
 - Complete BOM in LibreOffice Calc format, including part numbers from Digi-Key and Mouser
   [C64C-250469-01-A.ods](C64C-250469-01-A.ods)
 
-## PCB
+## Status
 
-The PCB is currently laid out but not routed because I lack key information for
-recreating it:
+I am quite confident that the schematic is stable and bug-free.
 
-- Exact board dimensions.
-- Exact RF modulator sizes.
-- Placement and size of mounting holes.
-
-Contributions are welcome!
+**Good News!** I acquired a spare motherboard that matches exactly this revision.
+With this example in my hand, I corrected all dimensional errors in the PCB.
+I also placed with great precision all the external connectors.
+Now work on routing the PCB can begin!
