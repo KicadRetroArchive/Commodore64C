@@ -509,7 +509,7 @@ AR Path="/5E795972" Ref="Q5"  Part="1"
 AR Path="/5E8458FD/5E795972" Ref="Q5"  Part="1" 
 F 0 "Q5" V 9629 1300 50  0000 C CNN
 F 1 "2SC1384" V 9538 1300 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9500 1225 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9500 1225 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/2SC1384.pdf" H 9300 1300 50  0001 L CNN
 	1    9300 1300
 	0    -1   -1   0   
