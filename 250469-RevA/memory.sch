@@ -589,7 +589,7 @@ Wire Wire Line
 	7950 3950 7400 3950
 Text Label 7400 3950 0    50   ~ 0
 ~WE
-Text Label 2200 6650 0    50   ~ 0
+Text Label 2475 6750 0    50   ~ 0
 A[0..15]
 Wire Wire Line
 	9300 2350 9150 2350
@@ -711,121 +711,121 @@ Wire Wire Line
 Text Notes 9100 1150 0    150  ~ 0
  Memory\nController
 Wire Wire Line
-	3100 5550 2850 5550
+	3375 5650 3125 5650
 Entry Wire Line
-	2850 5550 2750 5650
+	3125 5650 3025 5750
 Entry Wire Line
-	2850 5650 2750 5750
+	3125 5750 3025 5850
 Entry Wire Line
-	2850 5750 2750 5850
+	3125 5850 3025 5950
 Entry Wire Line
-	2850 5850 2750 5950
+	3125 5950 3025 6050
 Entry Wire Line
-	2850 5950 2750 6050
+	3125 6050 3025 6150
 Entry Wire Line
-	2850 6050 2750 6150
+	3125 6150 3025 6250
 Entry Wire Line
-	2850 6150 2750 6250
+	3125 6250 3025 6350
 Entry Wire Line
-	2850 6250 2750 6350
+	3125 6350 3025 6450
 Entry Wire Line
-	2850 6350 2750 6450
+	3125 6450 3025 6550
 Entry Wire Line
-	2850 6450 2750 6550
+	3125 6550 3025 6650
 Wire Wire Line
-	2850 6450 3100 6450
+	3125 6550 3375 6550
 Wire Wire Line
-	2850 6350 3100 6350
+	3125 6450 3375 6450
 Wire Wire Line
-	2850 6250 3100 6250
+	3125 6350 3375 6350
 Wire Wire Line
-	2850 6150 3100 6150
+	3125 6250 3375 6250
 Wire Wire Line
-	2850 6050 3100 6050
+	3125 6150 3375 6150
 Wire Wire Line
-	2850 5950 3100 5950
+	3125 6050 3375 6050
 Wire Wire Line
-	2850 5850 3100 5850
+	3125 5950 3375 5950
 Wire Wire Line
-	2850 5650 3100 5650
+	3125 5750 3375 5750
 Wire Wire Line
-	2850 5750 3100 5750
-Text Label 2850 5550 0    50   ~ 0
+	3125 5850 3375 5850
+Text Label 3125 5850 0    50   ~ 0
 A0
-Text Label 2850 5650 0    50   ~ 0
+Text Label 3125 5750 0    50   ~ 0
 A1
-Text Label 2850 5750 0    50   ~ 0
+Text Label 3125 5650 0    50   ~ 0
 A2
-Text Label 2850 5850 0    50   ~ 0
+Text Label 3125 5950 0    50   ~ 0
 A3
-Text Label 2850 5950 0    50   ~ 0
+Text Label 3125 6550 0    50   ~ 0
 A4
-Text Label 2850 6050 0    50   ~ 0
+Text Label 3125 6050 0    50   ~ 0
 A5
-Text Label 2850 6150 0    50   ~ 0
+Text Label 3125 6450 0    50   ~ 0
 A6
-Text Label 2850 6250 0    50   ~ 0
+Text Label 3125 6150 0    50   ~ 0
 A7
-Text Label 2850 6350 0    50   ~ 0
+Text Label 3125 6350 0    50   ~ 0
 A8
-Text Label 2850 6450 0    50   ~ 0
+Text Label 3125 6250 0    50   ~ 0
 A9
 $Comp
 L power:GND #PWR0173
 U 1 1 5F0F4C6A
-P 3500 6900
-F 0 "#PWR0173" H 3500 6650 50  0001 C CNN
-F 1 "GND" H 3505 6727 50  0000 C CNN
-F 2 "" H 3500 6900 50  0001 C CNN
-F 3 "" H 3500 6900 50  0001 C CNN
-	1    3500 6900
+P 3775 7000
+F 0 "#PWR0173" H 3775 6750 50  0001 C CNN
+F 1 "GND" H 3780 6827 50  0000 C CNN
+F 2 "" H 3775 7000 50  0001 C CNN
+F 3 "" H 3775 7000 50  0001 C CNN
+	1    3775 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 6250 4400 6250
+	4175 6350 4675 6350
 Wire Wire Line
-	3900 6450 4400 6450
+	4175 6550 4675 6550
 Wire Wire Line
-	3900 5950 4150 5950
+	4175 6050 4425 6050
 Wire Wire Line
-	3900 5650 4150 5650
+	4175 5750 4425 5750
 Wire Wire Line
-	3900 5750 4150 5750
+	4175 5850 4425 5850
 Wire Wire Line
-	3900 5850 4150 5850
+	4175 5950 4425 5950
 Entry Wire Line
-	4150 5650 4250 5550
+	4425 5750 4525 5650
 Entry Wire Line
-	4150 5750 4250 5650
+	4425 5850 4525 5750
 Entry Wire Line
-	4150 5850 4250 5750
+	4425 5950 4525 5850
 Entry Wire Line
-	4150 5950 4250 5850
+	4425 6050 4525 5950
 Wire Bus Line
-	4250 5450 4600 5450
-Text GLabel 4600 5450 2    50   BiDi ~ 0
+	4525 5550 4875 5550
+Text GLabel 4875 5550 2    50   BiDi ~ 0
 D[8..11]
-Text Label 4150 5650 2    50   ~ 0
+Text Label 4425 5750 2    50   ~ 0
 D8
-Text Label 4150 5750 2    50   ~ 0
+Text Label 4425 5850 2    50   ~ 0
 D9
-Text Label 4150 5850 2    50   ~ 0
+Text Label 4425 5950 2    50   ~ 0
 D10
-Text Label 4150 5950 2    50   ~ 0
+Text Label 4425 6050 2    50   ~ 0
 D11
 Wire Wire Line
 	7950 4050 7400 4050
 Text Label 7400 4050 0    50   ~ 0
 ~COLRAM
-Text Label 4400 6250 2    50   ~ 0
+Text Label 4675 6350 2    50   ~ 0
 ~COLRAM
 Text Notes 3000 950  0    200  ~ 0
 RAM
-Text Notes 1150 5450 0    200  ~ 0
+Text Notes 1350 4950 0    200  ~ 0
 Color\nMemory
-Text Label 4400 6450 2    50   ~ 0
+Text Label 4675 6550 2    50   ~ 0
 ~WE
-Text Notes 3700 6800 0    40   ~ 0
+Text Notes 3975 6900 0    40   ~ 0
 (D800-D8FF)
 Text GLabel 7050 5500 0    50   BiDi ~ 0
 MA[0..7]
@@ -960,7 +960,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 5550 7950 5550
 Wire Bus Line
-	2750 6650 2200 6650
+	3025 6750 2475 6750
 Text GLabel 10300 2150 2    50   Output ~ 0
 ~KBR_CS
 Text GLabel 10300 1700 2    50   Output ~ 0
@@ -1016,36 +1016,36 @@ Text Notes 6480 4430 2    40   ~ 0
 From VIC
 Text Notes 6480 4680 2    40   ~ 0
 From CIA 2
-Text Notes 5060 5480 0    40   ~ 0
+Text Notes 5335 5580 0    40   ~ 0
 To VIC
 Wire Wire Line
 	8550 1950 8550 2150
 $Comp
 L power:+5V #PWR0172
 U 1 1 5EFDEDE2
-P 3500 5225
-F 0 "#PWR0172" H 3500 5075 50  0001 C CNN
-F 1 "+5V" H 3515 5398 50  0000 C CNN
-F 2 "" H 3500 5225 50  0001 C CNN
-F 3 "" H 3500 5225 50  0001 C CNN
-	1    3500 5225
+P 3775 5325
+F 0 "#PWR0172" H 3775 5175 50  0001 C CNN
+F 1 "+5V" H 3790 5498 50  0000 C CNN
+F 2 "" H 3775 5325 50  0001 C CNN
+F 3 "" H 3775 5325 50  0001 C CNN
+	1    3775 5325
 	1    0    0    -1  
 $EndComp
 $Comp
 L krl_Memory_RAM:2114 U19
 U 1 1 5E3F3F3A
-P 3500 6050
-F 0 "U19" H 3725 6700 50  0000 C CNN
-F 1 "2114" H 3300 6700 50  0000 C CNN
-F 2 "Package_DIP:DIP-18_W7.62mm_Socket" H 2750 5400 50  0001 C CIN
-F 3 "" H 3500 6150 50  0001 C CNN
-	1    3500 6050
+P 3775 6150
+F 0 "U19" H 4000 6800 50  0000 C CNN
+F 1 "2114" H 3575 6800 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm_Socket" H 3025 5500 50  0001 C CIN
+F 3 "" H 3775 6250 50  0001 C CNN
+	1    3775 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 5225 3500 5350
+	3775 5325 3775 5450
 Wire Wire Line
-	3500 6900 3500 6750
+	3775 7000 3775 6850
 Wire Wire Line
 	2500 3200 2500 2925
 Wire Wire Line
@@ -1064,12 +1064,24 @@ Wire Wire Line
 Connection ~ 4300 2925
 Wire Wire Line
 	4300 2925 4300 3000
+Wire Notes Line
+	875  4175 5400 4175
+Text Notes 1225 5950 0    50   ~ 0
+Address lines do not match to simplify\ntrace routing on the PCB.\nVerified on a real board.
+Wire Notes Line width 10 style solid
+	1125 5600 2825 5600
+Wire Notes Line width 10 style solid
+	2825 5600 2825 6075
+Wire Notes Line width 10 style solid
+	2825 6075 1125 6075
+Wire Notes Line width 10 style solid
+	1125 6075 1125 5600
 Wire Bus Line
 	7250 4450 7250 4650
 Wire Bus Line
 	7150 4250 7150 4400
 Wire Bus Line
-	4250 5450 4250 5850
+	4525 5550 4525 5950
 Wire Bus Line
 	1650 1950 1650 3050
 Wire Bus Line
@@ -1077,7 +1089,7 @@ Wire Bus Line
 Wire Bus Line
 	7500 4750 7500 5500
 Wire Bus Line
-	2750 5650 2750 6650
+	3025 5750 3025 6750
 Wire Bus Line
 	5050 1500 5050 2450
 Wire Bus Line

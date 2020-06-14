@@ -36,7 +36,7 @@ AR Path="/5E1CEE0C/5E31C703" Ref="J?"  Part="1"
 AR Path="/5E2FB209/5E31C703" Ref="J4"  Part="1" 
 F 0 "J4" H 5350 2900 50  0000 C CNN
 F 1 "DIN-6" H 5750 2400 50  0000 C CNN
-F 2 "krl_Connector_DIN:CUI-Devices_SDS-60J_DIN-6_Circular" H 5500 2650 50  0001 C CNN
+F 2 "krl_Connector_DIN:C64_Original_DIN-6_Circular" H 5500 2650 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 5500 2650 50  0001 C CNN
 	1    5500 2650
 	1    0    0    -1  

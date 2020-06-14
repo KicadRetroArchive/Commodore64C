@@ -156,7 +156,7 @@ U 1 1 5E5BDB73
 P 1650 2950
 F 0 "J7" H 1650 2583 50  0000 C CNN
 F 1 "DIN-7" H 1650 2674 50  0000 C CNN
-F 2 "krl_Connector_DIN:CUI-Devices_SDS-70J_DIN-7_Circular" H 1650 2950 50  0001 C CNN
+F 2 "krl_Connector_DIN:C64_Original_DIN-7_Circular" H 1650 2950 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 1650 2950 50  0001 C CNN
 	1    1650 2950
 	1    0    0    1   

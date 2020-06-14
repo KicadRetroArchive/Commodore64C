@@ -746,7 +746,7 @@ U 1 1 5E613772
 P 9350 2200
 F 0 "J5" H 9150 1900 50  0000 C CNN
 F 1 "DIN-8" H 9600 1900 50  0000 C CNN
-F 2 "krl_Connector_DIN:CUI-Devices_SDS-80J_DIN-8_Circular" H 9350 2200 50  0001 C CNN
+F 2 "krl_Connector_DIN:C64_Original_DIN-8_Circular" H 9350 2200 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 9350 2200 50  0001 C CNN
 	1    9350 2200
 	1    0    0    1   
