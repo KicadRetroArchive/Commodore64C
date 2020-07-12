@@ -1066,16 +1066,16 @@ Wire Wire Line
 	4300 2925 4300 3000
 Wire Notes Line
 	875  4175 5400 4175
-Text Notes 1225 5950 0    50   ~ 0
-Address lines do not match to simplify\ntrace routing on the PCB.\nVerified on a real board.
+Text Notes 1140 5900 0    50   ~ 0
+Address and data lines do not match to\nsimplify trace routing on the PCB.\nVerified on a real board.
 Wire Notes Line width 10 style solid
-	1125 5600 2825 5600
+	1075 5550 2775 5550
 Wire Notes Line width 10 style solid
-	2825 5600 2825 6075
+	2775 5550 2775 6025
 Wire Notes Line width 10 style solid
-	2825 6075 1125 6075
+	2775 6025 1075 6025
 Wire Notes Line width 10 style solid
-	1125 6075 1125 5600
+	1075 6025 1075 5550
 Wire Bus Line
 	7250 4450 7250 4650
 Wire Bus Line
