@@ -694,9 +694,11 @@ F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4650 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP C43
+L Device:C_Polarized C43
 U 1 1 5E332D3A
 P 4650 6650
+AR Path="/5E332D3A" Ref="C43"  Part="1" 
+AR Path="/5E852F1D/5E332D3A" Ref="C43"  Part="1" 
 F 0 "C43" H 4768 6696 50  0000 L CNN
 F 1 "220u" H 4768 6605 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 4688 6500 50  0001 C CNN

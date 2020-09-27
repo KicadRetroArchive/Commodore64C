@@ -172,11 +172,12 @@ F 3 "~" H 2800 6450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP C?
+L Device:C_Polarized C?
 U 1 1 5E4CF224
 P 3850 6700
 AR Path="/5E1CEE0C/5E4CF224" Ref="C?"  Part="1" 
 AR Path="/5E4C440A/5E4CF224" Ref="C59"  Part="1" 
+AR Path="/5E4CF224" Ref="C59"  Part="1" 
 F 0 "C59" H 3968 6746 50  0000 L CNN
 F 1 "4.7u" H 3968 6655 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3888 6550 50  0001 C CNN
@@ -336,9 +337,11 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6500 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C44
+L Device:C_Polarized C44
 U 1 1 5E4D9333
 P 5950 4350
+AR Path="/5E4D9333" Ref="C44"  Part="1" 
+AR Path="/5E4C440A/5E4D9333" Ref="C44"  Part="1" 
 F 0 "C44" H 6068 4396 50  0000 L CNN
 F 1 "2.2u" H 6068 4305 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 5988 4200 50  0001 C CNN

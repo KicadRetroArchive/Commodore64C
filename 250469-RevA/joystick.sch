@@ -42,11 +42,12 @@ F 3 " ~" H 7100 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF074
 P 3800 2350
 AR Path="/5E1CEE0C/5E6DF074" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF074" Ref="FL4"  Part="1" 
+AR Path="/5E6DF074" Ref="FL4"  Part="1" 
 F 0 "FL4" H 3550 2300 50  0000 C CNN
 F 1 "270p" H 3800 2576 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 3800 2350 50  0001 C CNN
@@ -55,11 +56,12 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF07A
 P 3800 3100
 AR Path="/5E1CEE0C/5E6DF07A" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF07A" Ref="FL3"  Part="1" 
+AR Path="/5E6DF07A" Ref="FL3"  Part="1" 
 F 0 "FL3" H 3550 3050 50  0000 C CNN
 F 1 "270p" H 3800 3326 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 3800 3100 50  0001 C CNN
@@ -68,11 +70,12 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF080
 P 3800 4250
 AR Path="/5E1CEE0C/5E6DF080" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF080" Ref="FL5"  Part="1" 
+AR Path="/5E6DF080" Ref="FL5"  Part="1" 
 F 0 "FL5" H 3550 4200 50  0000 C CNN
 F 1 "270p" H 3800 4476 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 3800 4250 50  0001 C CNN
@@ -81,11 +84,12 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF086
 P 4550 4850
 AR Path="/5E1CEE0C/5E6DF086" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF086" Ref="FL1"  Part="1" 
+AR Path="/5E6DF086" Ref="FL1"  Part="1" 
 F 0 "FL1" H 4300 4800 50  0000 C CNN
 F 1 "270p" H 4550 5076 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 4550 4850 50  0001 C CNN
@@ -94,11 +98,12 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF08C
 P 4550 3650
 AR Path="/5E1CEE0C/5E6DF08C" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF08C" Ref="FL2"  Part="1" 
+AR Path="/5E6DF08C" Ref="FL2"  Part="1" 
 F 0 "FL2" H 4300 3600 50  0000 C CNN
 F 1 "270p" H 4550 3876 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 4550 3650 50  0001 C CNN
@@ -333,11 +338,12 @@ CN9
 Text Notes 7350 5250 2    40   ~ 0
 (CONTROL PORT 1)
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF122
 P 8400 5550
 AR Path="/5E1CEE0C/5E6DF122" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF122" Ref="FL6"  Part="1" 
+AR Path="/5E6DF122" Ref="FL6"  Part="1" 
 F 0 "FL6" H 8150 5500 50  0000 C CNN
 F 1 "270p" H 8400 5776 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 8400 5550 50  0001 C CNN
@@ -359,11 +365,12 @@ F 3 "" H 8400 5700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF12E
 P 9050 4650
 AR Path="/5E1CEE0C/5E6DF12E" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF12E" Ref="FL7"  Part="1" 
+AR Path="/5E6DF12E" Ref="FL7"  Part="1" 
 F 0 "FL7" H 8800 4600 50  0000 C CNN
 F 1 "270p" H 9050 4876 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 9050 4650 50  0001 C CNN
@@ -372,11 +379,12 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF134
 P 8600 3950
 AR Path="/5E1CEE0C/5E6DF134" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF134" Ref="FL8"  Part="1" 
+AR Path="/5E6DF134" Ref="FL8"  Part="1" 
 F 0 "FL8" H 8350 3900 50  0000 C CNN
 F 1 "270p" H 8600 4176 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 8600 3950 50  0001 C CNN
@@ -480,11 +488,12 @@ F 3 "" H 7950 3500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 5E6DF17C
 P 9100 3350
 AR Path="/5E1CEE0C/5E6DF17C" Ref="FL?"  Part="1" 
 AR Path="/5E6B96A5/5E6DF17C" Ref="FL9"  Part="1" 
+AR Path="/5E6DF17C" Ref="FL9"  Part="1" 
 F 0 "FL9" H 8850 3300 50  0000 C CNN
 F 1 "270p" H 9100 3576 50  0000 C CNN
 F 2 "krl_Filter:LCL-Filter_2.8x8.5mm_P2.5mm" V 9100 3350 50  0001 C CNN

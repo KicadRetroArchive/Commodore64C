@@ -718,11 +718,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_CP
+# Device_C_Polarized
 #
-DEF Device_CP C 0 10 N Y 1 F N
+DEF Device_C_Polarized C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_CP" 25 -100 50 H V L CNN
+F1 "Device_C_Polarized" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -738,11 +738,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_CTRIM
+# Device_C_Trim
 #
-DEF Device_CTRIM C 0 10 N N 1 F N
+DEF Device_C_Trim C 0 10 N N 1 F N
 F0 "C" 60 -80 50 H V C CNN
-F1 "Device_CTRIM" 120 -140 50 H V C CNN
+F1 "Device_C_Trim" 120 -140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -809,11 +809,53 @@ X ~~ 4 0 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_EMI_Filter_LCL
+# Device_FerriteBead
 #
-DEF Device_EMI_Filter_LCL FL 0 10 Y N 1 F N
+DEF Device_FerriteBead FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
+F1 "Device_FerriteBead" 150 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -48 N
+P 2 0 1 0 0 50 0 51 N
+P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_FerriteBead_Small
+#
+DEF Device_FerriteBead_Small FB 0 0 N Y 1 F N
+F0 "FB" 75 50 50 H V L CNN
+F1 "Device_FerriteBead_Small" 75 -50 50 H V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -31 N
+P 2 0 1 0 0 35 0 51 N
+P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
+X ~ 1 0 100 50 D 50 50 1 1 P
+X ~ 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Filter_EMI_LCL
+#
+DEF Device_Filter_EMI_LCL FL 0 10 Y N 1 F N
 F0 "FL" 0 275 50 H V C CNN
-F1 "Device_EMI_Filter_LCL" 0 200 50 H V C CNN
+F1 "Device_Filter_EMI_LCL" 0 200 50 H V C CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -842,48 +884,6 @@ X 3 3 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Ferrite_Bead
-#
-DEF Device_Ferrite_Bead FB 0 0 N Y 1 F N
-F0 "FB" -150 25 50 V V C CNN
-F1 "Device_Ferrite_Bead" 150 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Inductor_*
- L_*
- *Ferrite*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -50 0 -48 N
-P 2 0 1 0 0 50 0 51 N
-P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
-X ~ 1 0 150 100 D 50 50 1 1 P
-X ~ 2 0 -150 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Ferrite_Bead_Small
-#
-DEF Device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
-F0 "FB" 75 50 50 H V L CNN
-F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Inductor_*
- L_*
- *Ferrite*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -50 0 -31 N
-P 2 0 1 0 0 35 0 51 N
-P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
-X ~ 1 0 100 50 D 50 50 1 1 P
-X ~ 2 0 -100 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Fuse
 #
 DEF Device_Fuse F 0 0 N Y 1 F N
@@ -899,28 +899,6 @@ S -30 -100 30 100 0 1 10 N
 P 2 0 1 0 0 100 0 -100 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper
-#
-DEF Device_Jumper JP 0 30 Y N 1 F N
-F0 "JP" 0 150 50 H V C CNN
-F1 "Device_Jumper" 0 -80 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*
- Jumper*
- TestPoint*2Pads*
- TestPoint*Bridge*
-$ENDFPLIST
-DRAW
-A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
-C -100 0 35 0 1 0 N
-C 100 0 35 0 1 0 N
-X 1 1 -300 0 165 R 50 50 0 1 P
-X 2 2 300 0 165 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1143,6 +1121,27 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_Jumper_2_Bridged
+#
+DEF Jumper_Jumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 75 50 H V C CNN
+F1 "Jumper_Jumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -70 100 1269 531 0 1 0 N -60 10 60 10
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1630,7 +1629,7 @@ F1 "krl_MOS-Technology_8580R5" 375 950 50 H V C CNN
 F2 "Package_DIP:DIP-28_W15.24mm" -750 -1050 50 H I C CIN
 F3 "" -50 50 50 H I C CNN
 F4 "906112, 318013" 0 0 50 H I C CNN "ProductCodes"
-ALIAS 6581R3 6581R4 8580 8580R5
+ALIAS 6581R3 6581R4 8580R5
 $FPLIST
  DIP*W15.24mm*
 $ENDFPLIST

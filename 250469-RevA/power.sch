@@ -270,9 +270,11 @@ F 3 "~" H 4400 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP C58
+L Device:C_Polarized C58
 U 1 1 5E62570C
 P 4600 4300
+AR Path="/5E62570C" Ref="C58"  Part="1" 
+AR Path="/5E8458FD/5E62570C" Ref="C58"  Part="1" 
 F 0 "C58" H 4718 4346 50  0000 L CNN
 F 1 "100u/16V" H 4718 4255 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4638 4150 50  0001 C CNN
@@ -390,9 +392,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 1000 6050 1000
 $Comp
-L Device:CP C65
+L Device:C_Polarized C65
 U 1 1 5E69E767
 P 6200 1800
+AR Path="/5E69E767" Ref="C65"  Part="1" 
+AR Path="/5E8458FD/5E69E767" Ref="C65"  Part="1" 
 F 0 "C65" V 5945 1800 50  0000 C CNN
 F 1 "220u" V 6036 1800 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6238 1650 50  0001 C CNN
@@ -441,9 +445,11 @@ Wire Wire Line
 Wire Wire Line
 	6200 3700 6550 3700
 $Comp
-L Device:CP C63
+L Device:C_Polarized C63
 U 1 1 5E77E5F1
 P 6650 2600
+AR Path="/5E77E5F1" Ref="C63"  Part="1" 
+AR Path="/5E8458FD/5E77E5F1" Ref="C63"  Part="1" 
 F 0 "C63" H 6768 2646 50  0000 L CNN
 F 1 "1000u/16V" H 6768 2555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal" H 6688 2450 50  0001 C CNN
@@ -467,9 +473,11 @@ $EndComp
 Wire Wire Line
 	6650 2850 6650 2750
 $Comp
-L Device:CP C66
+L Device:C_Polarized C66
 U 1 1 5E785362
 P 7950 1450
+AR Path="/5E785362" Ref="C66"  Part="1" 
+AR Path="/5E8458FD/5E785362" Ref="C66"  Part="1" 
 F 0 "C66" H 8068 1496 50  0000 L CNN
 F 1 "330u/35V" H 8068 1405 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 7988 1300 50  0001 C CNN

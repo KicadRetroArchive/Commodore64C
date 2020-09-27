@@ -397,9 +397,11 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 7
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C77
+L Device:C_Polarized C77
 U 1 1 5E57628A
 P 8000 4575
+AR Path="/5E57628A" Ref="C77"  Part="1" 
+AR Path="/5E6244E0/5E57628A" Ref="C77"  Part="1" 
 F 0 "C77" V 8255 4575 50  0000 C CNN
 F 1 "10u" V 8164 4575 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8038 4425 50  0001 C CNN

@@ -56,9 +56,11 @@ F 3 "~" H 1000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C36
+L Device:C_Polarized C36
 U 1 1 5E431A66
 P 1900 5200
+AR Path="/5E431A66" Ref="C36"  Part="1" 
+AR Path="/5E427C5E/5E431A66" Ref="C36"  Part="1" 
 F 0 "C36" H 2018 5246 50  0000 L CNN
 F 1 "47u/16V" H 2018 5155 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1938 5050 50  0001 C CNN
@@ -247,12 +249,12 @@ Wire Wire Line
 $Comp
 L Device:Crystal Y1
 U 1 1 5E494D12
-P 6600 4725
-F 0 "Y1" V 6600 4875 50  0000 L CNN
-F 1 "Crystal" V 6645 4856 50  0001 L CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 6600 4725 50  0001 C CNN
-F 3 "~" H 6600 4725 50  0001 C CNN
-	1    6600 4725
+P 6600 4700
+F 0 "Y1" V 6600 4850 50  0000 L CNN
+F 1 "Crystal" V 6645 4831 50  0001 L CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 6600 4700 50  0001 C CNN
+F 3 "~" H 6600 4700 50  0001 C CNN
+	1    6600 4700
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -262,13 +264,13 @@ Wire Wire Line
 Wire Wire Line
 	6850 4500 6600 4500
 Wire Wire Line
-	6600 4500 6600 4575
-Wire Wire Line
 	7150 4950 6600 4950
 $Comp
-L Device:CTRIM CT1
+L Device:C_Trim CT1
 U 1 1 5E49D621
 P 6600 5300
+AR Path="/5E49D621" Ref="CT1"  Part="1" 
+AR Path="/5E427C5E/5E49D621" Ref="CT1"  Part="1" 
 F 0 "CT1" H 6716 5346 50  0000 L CNN
 F 1 "7.7-40p" H 6716 5255 50  0000 L CNN
 F 2 "krl_Capacitor_THT:C_Trimmer_JML_JML06_P5mm" H 6600 5300 50  0001 C CNN
@@ -278,7 +280,6 @@ F 3 "~" H 6600 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 4950 6600 5150
-Connection ~ 6600 4950
 Wire Wire Line
 	6600 5450 6600 5600
 $Comp
@@ -294,20 +295,18 @@ F 3 "" H 6600 5600 50  0001 C CNN
 $EndComp
 NoConn ~ 6950 5150
 $Comp
-L Device:Jumper JP3
+L Jumper:Jumper_2_Bridged JP3
 U 1 1 5E4A291C
 P 8850 4850
-F 0 "JP3" H 8850 5114 50  0000 C CNN
-F 1 "Jumper" H 8850 5023 50  0000 C CNN
+AR Path="/5E4A291C" Ref="JP3"  Part="1" 
+AR Path="/5E427C5E/5E4A291C" Ref="JP3"  Part="1" 
+F 0 "JP3" H 8850 5100 50  0000 C CNN
+F 1 "Jumper" H 8850 5000 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 4850 50  0001 C CNN
 F 3 "~" H 8850 4850 50  0001 C CNN
 	1    8850 4850
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 4850 8350 4850
-Wire Wire Line
-	9150 4850 9250 4850
 Wire Wire Line
 	9250 4850 9250 4950
 $Comp
@@ -322,9 +321,11 @@ F 3 "" H 9250 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB1
+L Device:FerriteBead FB1
 U 1 1 5E4A5ABB
 P 8950 5550
+AR Path="/5E4A5ABB" Ref="FB1"  Part="1" 
+AR Path="/5E427C5E/5E4A5ABB" Ref="FB1"  Part="1" 
 F 0 "FB1" V 8750 5550 50  0000 C CNN
 F 1 "2 Turns" V 9133 5550 50  0000 C CNN
 F 2 "250469-01:L_Axial_Dual_L7.0mm_D3.3mm_P5.08mm_Vertical" V 8880 5550 50  0001 C CNN
@@ -708,9 +709,11 @@ Wire Wire Line
 Wire Wire Line
 	8750 2200 9050 2200
 $Comp
-L Device:Ferrite_Bead_Small FB4
+L Device:FerriteBead_Small FB4
 U 1 1 5E508AB5
 P 8650 1850
+AR Path="/5E508AB5" Ref="FB4"  Part="1" 
+AR Path="/5E427C5E/5E508AB5" Ref="FB4"  Part="1" 
 F 0 "FB4" V 8505 1850 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 8504 1850 50  0001 C CNN
 F 2 "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC" V 8580 1850 50  0001 C CNN
@@ -719,9 +722,11 @@ F 3 "~" H 8650 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB3
+L Device:FerriteBead_Small FB3
 U 1 1 5E5084E2
 P 8650 2200
+AR Path="/5E5084E2" Ref="FB3"  Part="1" 
+AR Path="/5E427C5E/5E5084E2" Ref="FB3"  Part="1" 
 F 0 "FB3" V 8505 2200 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 8504 2200 50  0001 C CNN
 F 2 "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC" V 8580 2200 50  0001 C CNN
@@ -730,9 +735,11 @@ F 3 "~" H 8650 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB2
+L Device:FerriteBead_Small FB2
 U 1 1 5E507BD4
 P 8650 2550
+AR Path="/5E507BD4" Ref="FB2"  Part="1" 
+AR Path="/5E427C5E/5E507BD4" Ref="FB2"  Part="1" 
 F 0 "FB2" V 8505 2550 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 8504 2550 50  0001 C CNN
 F 2 "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC" V 8580 2550 50  0001 C CNN
@@ -904,11 +911,6 @@ Wire Wire Line
 	2050 3550 2050 3450
 Wire Wire Line
 	2050 3450 2450 3450
-Connection ~ 6600 4575
-Wire Wire Line
-	6600 4575 6600 4650
-Wire Wire Line
-	6600 4875 6600 4950
 Wire Wire Line
 	6950 5150 7150 5150
 Wire Wire Line
@@ -928,6 +930,15 @@ F 3 "" H 1800 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 1150 7050 1075
+Wire Wire Line
+	6600 4550 6600 4500
+Wire Wire Line
+	6600 4850 6600 4950
+Connection ~ 6600 4950
+Wire Wire Line
+	9050 4850 9250 4850
+Wire Wire Line
+	8350 4850 8650 4850
 Wire Bus Line
 	1950 2200 1950 2350
 Wire Bus Line
