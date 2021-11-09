@@ -1,7 +1,7 @@
 # Commodore 64C KiCad schematics
 
 This project contains a series of schematics and PCB designs for the
-Commodore 64C (aka C64-E) personal computer, redrawn in [KiCad](https://kicad-pcb.org/).
+Commodore 64C (aka C64-E) personal computer, redrawn in [KiCad](https://kicad.org/).
 
 The schematic was extracted from images available from
 [Bo Zimmerman's FTP site](http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/index.html).
