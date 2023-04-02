@@ -2,6 +2,7 @@
 # Credit: https://github.com/bwack/KU-14194HB-RevB-KiCad
 
 # Temporary files
+*backups/
 *.000
 *.bak
 *.bck
