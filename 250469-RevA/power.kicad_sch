@@ -4885,7 +4885,7 @@
     (property "Value" "SW_DPDT" (at 117.4496 85.09 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "250469-01:RockerSwitch_CuK_DPDT_E201J1AV2" (at 100.33 82.55 0)
+    (property "Footprint" "250469-01:Switch_DPDT_Power" (at 100.33 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 85.09 0)
