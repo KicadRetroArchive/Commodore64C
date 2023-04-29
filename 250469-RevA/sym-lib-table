@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "250469-01")(type "KiCad")(uri "${KIPRJMOD}/../libs/250469-01.kicad_sym")(options "")(descr ""))
+  (lib (name "C64-C-250469")(type "KiCad")(uri "${KIPRJMOD}/../libs/C64-C-250469.kicad_sym")(options "")(descr ""))
   (lib (name "krl_74xx")(type "KiCad")(uri "${KICAD_RETRO_LIBRARY}/krl-symbols/krl_74xx.kicad_sym")(options "")(descr ""))
   (lib (name "krl_Commodore")(type "KiCad")(uri "${KICAD_RETRO_LIBRARY}/krl-symbols/krl_Commodore.kicad_sym")(options "")(descr ""))
   (lib (name "krl_Connector")(type "KiCad")(uri "${KICAD_RETRO_LIBRARY}/krl-symbols/krl_Connector.kicad_sym")(options "")(descr ""))

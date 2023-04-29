@@ -51,7 +51,7 @@
   (pad "6" thru_hole oval (at -34.16 0 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b3aef393-f472-4e06-9db9-8d6774642be9))
   (pad "7" thru_hole oval (at -36.7 0 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 6b5dee82-7bd9-4430-a897-4cbd2bade809))
   (pad "8" thru_hole oval (at -39.24 0 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e8643e5f-b146-4837-9126-a95bb26fad94))
-  (model "${KIPRJMOD}/../libs/250469-01.3dshapes/RF_Modulator.wrl"
+  (model "${KIPRJMOD}/../libs/C64-C-250469.3dshapes/RF_Modulator.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
