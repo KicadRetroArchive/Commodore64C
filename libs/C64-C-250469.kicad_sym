@@ -1142,7 +1142,7 @@
     (property "Value" "Filter_CommonModeChoke_Dual" (at 0 -11.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "krl_Filter:Laird_CM4545Z131B-10" (at 0 -15.24 0)
+    (property "Footprint" "C64-C-250469:Filter_CommonModeChoke_Dual" (at 0 -15.24 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "" (at 0 5.08 0)

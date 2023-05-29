@@ -34,8 +34,6 @@ I replaced them with the closest substitute I could find that is widely availabl
 These components are different from the originals:
 
 - `CR2`: Diode Rectifier Bridge
-- `L1`: Line Filter, 8 terminals
-- `Y1`: Crystal
 - `L3,L4`: RF Choke Coils
 - Some transistors and diodes
 
@@ -45,8 +43,8 @@ Both subprojects use two KiCad set of libraries:
 
 - The [KiCad Retro Library](https://github.com/KicadRetroArchive/kicad-retro-library).
 - Project-specific libraries located in the [libs](libs) directory.
-  - `250469-01.lib` - C64C specific symbols.
-  - `250469-01.pretty` - C64C specific footprints.
+  - `C64-C-250469.kicad_sym` - C64C specific symbols.
+  - `C64-C-250469.pretty` - C64C specific footprints.
 
 > The project-specific libraries are located in a directory **above** the actual
 > KiCad project. They are referenced through the `KIPRJMOD` environment variable
